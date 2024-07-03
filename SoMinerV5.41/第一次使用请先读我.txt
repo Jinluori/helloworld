@@ -1,0 +1,20 @@
+网络矿工数据采集软件
+
+官网：http://www.minerspider.com
+教程：http://www.minerspider.com/teaching/index.aspx
+
+软件运行需 Microsoft .NetFramework 4.0 
+下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=17718
+
+软件支持32位及64位运行环境，如果是在win7以上操作系统，需以管理员身份运行。
+
+SoukeyNetget.exe 为网络矿工采集软件，运行此文件即可打开网络矿工
+SoukeyPublishManage.exe 发布模板管理工具，可用于自定义发布模板，进行复杂的数据发布配置
+SoukeyLog.exe 为日志浏览工具，可查看系统运行日志信息
+SoukeyDataPublish.exe 为发布工具，可进行任意数据的独立发布操作（支持web发布及数据库），支持多种数据源数据的发布
+SMHttpComposer.exe HTTP消息请求构造器，可用于测试http请求的信息及查看响应的正确性。
+
+使用过程中遇到任何问题均可通过在官网联系在线客服！
+
+
+

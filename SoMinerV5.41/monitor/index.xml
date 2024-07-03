@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TaskIndex>
+  <Task>
+    <id>0</id>
+    <Name>舆情监测</Name>
+    <State>4031</State>
+    <MonitorType>3091</MonitorType>
+    <DealType>4013</DealType>
+    <WarningType>4022</WarningType>
+    <InvalidType>4041</InvalidType>
+  </Task>
+</TaskIndex>

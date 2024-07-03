@@ -1,0 +1,1853 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PublishInfos>
+  <Publish>
+    <Name>phpwind</Name>
+    <ThreadCount>5</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1066</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>1002</UrlCode>
+    <PostUrl><![CDATA[http://localhost:83/index.php?c=post&a=doadd&_json=1&fid=2<POST>-----------------------------1444076928951
+Content-Disposition: form-data; name="atc_title"
+
+{标题}
+-----------------------------1444076928951
+Content-Disposition: form-data; name="atc_content"
+
+{正文}
+-----------------------------1444076928951
+Content-Disposition: form-data; name="pid"
+
+
+-----------------------------1444076928951
+Content-Disposition: form-data; name="tid"
+
+
+-----------------------------1444076928951
+Content-Disposition: form-data; name="special"
+
+default
+-----------------------------1444076928951
+Content-Disposition: form-data; name="reply_notice"
+
+1
+-----------------------------1444076928951
+Content-Disposition: form-data; name="csrf_token"
+
+217206b5f70c5e48
+-----------------------------1444076928951--
+</POST>]]></PostUrl>
+    <Cookie><![CDATA[CNZZDATA1348822=cnzz_eid%3D1747219587-1368452500-http%253A%252F%252Flocalhost%26ntime%3D1368458155%26cnzz_a%3D23%26retime%3D1368462567935%26sin%3Dhttp%253A%252F%252Flocalhost%253A10495%252Fdefault.aspx%26ltime%3D1368462567935%26rtime%3D0; j94_lastvisit=310%091368512732%09%2Findex.php%3Fc%3Dpost%26a%3Ddoadd%26_json%3D1%26fid%3D3; j94_visitor=xYQDxioF94%2B0P7d1dS3X4bWXxL4aW120VshcZbFv1CGBea7u; csrf_token=217206b5f70c5e48; _ac_app_ua=06ea5e0d3b15dbf4b5; j94_AdminUser=I%2FYrCJG2XHqwVbmPeokHo7sni7kfFGNJsqaQ%2BzzOTjQtrHOBRqVU6mQLHFv6zjUn5biBDQ%3D%3D; j94_visit_referer=fid_3_page_1; j94_winduser=2LUvamSiQI0xTT4Sy0VUp70eX6bTf7JzrsDETVFs4fpKZfYuY9%2FZSA%3D%3D; _ac_079fa326=1]]></Cookie>
+    <IsHeader>True</IsHeader>
+    <Header><![CDATA[User-Agent:Mozilla/5.0 (Windows NT 6.1; rv:20.0) Gecko/20100101 Firefox/20.0
+Content-Type:multipart/form-data; boundary=---------------------------1444076928951]]></Header>
+    <SucceedFlag><![CDATA[ ]]></SucceedFlag>
+    <PublishIntervalTime>1000</PublishIntervalTime>
+  </Publish>
+  <Publish>
+    <Name>74cms发布模版</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>74cms[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:90</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>分类</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>数据发布模版</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>发布一对多[数据库发布类]</TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>Data Source=.\sqlexpress;initial catalog=test;Integrated Security=True;</PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>分类</Label>
+        <Value>分类</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>74cms发布图片</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>74cms[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:90</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>2</Value>
+        <Type>5302</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>D:\sominer\NetGet\SoMiner\bin\Debug\data\网易新闻翻页合并_file</Value>
+        <Type>5302</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>phpwind发布模版</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>phpwind[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:83</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>4303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>phpwind发布模版带图片</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>phpwind[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:83</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>4303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>D:\sominer\NetGet\SoMiner\bin\Debug\data\网易新闻翻页合并_file</Value>
+        <Type>5302</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>phpcms发布文章</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>phpcms发布模版[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>esijie</Password>
+    <Domain>http://localhost:81</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>时间</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>标签</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>摘要</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>discuz</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1066</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>1002</UrlCode>
+    <PostUrl><![CDATA[http://localhost:90/posttopic.aspx?forumid=7&forumpage=1<POST>-----------------------------25781220736998
+Content-Disposition: form-data; name="posttime"
+
+2013-02-25 16:09:54
+-----------------------------25781220736998
+Content-Disposition: form-data; name="iconid"
+
+0
+-----------------------------25781220736998
+Content-Disposition: form-data; name="title"
+
+{标题}
+-----------------------------25781220736998
+Content-Disposition: form-data; name="message"
+
+{正文}
+-----------------------------25781220736998
+Content-Disposition: form-data; name="wysiwyg"
+
+1
+-----------------------------25781220736998
+Content-Disposition: form-data; name="topicsubmit"
+
+true
+-----------------------------25781220736998
+Content-Disposition: form-data; name="usesig"
+
+1
+-----------------------------25781220736998
+Content-Disposition: form-data; name="imglocalid[]"
+
+
+-----------------------------25781220736998
+Content-Disposition: form-data; name="Filedata"; filename=""
+Content-Type: application/octet-stream
+
+
+-----------------------------25781220736998--
+</POST>]]></PostUrl>
+    <Cookie><![CDATA[ CNZZDATA1348822=cnzz_eid%3D56778519-1358408536-%26ntime%3D1361690086%26cnzz_a%3D0%26retime%3D1361690086734%26sin%3D%26ltime%3D1361690086734%26rtime%3D15; lastpostedforum=7; __jwpusr=09d30df8-ef01-4852-84fa-5422bf5b2d80; shownotice=0; newpms=1; lastolupdate=15970227; visitedforums=7,10,9; lastposttime=2013-02-25 16:06:44; dnt=userid=557&password=ZuQSfqKt8DdxgZUN8hJ6iSHh0RglLC22lHWwAO2149LXtOqyfl%2faIg%3d%3d&tpp=0&ppp=0&pmsound=0&invisible=0&referer=showtopic.aspx%3ftopicid%3d21%26page%3d1%26forumpage%3d1&sigstatus=1&expires=43200&userinfotips=&visitedforums=10%2c9%2c7&postmessage=&clearUserdata=forum&oldtopic=D21D19D13D11; reurl=http://localhost:8081/showforum-7.aspx; lastactivity=onlinetime=15800732&oltime=15800732; editormode_e=-1; forumpageid=1; lasttopictitle=b5c54691694a86144fc1a2012d91cf56; lasttopicmessage=b5c54691694a86144fc1a2012d91cf56; dntusertips=userinfotips=%e7%a7%af%e5%88%86%3a197%2c%e7%94%a8%e6%88%b7%e7%bb%84%3a%e6%b3%a8%e5%86%8c%e4%bc%9a%e5%91%98%2c%e5%a8%81%e6%9c%9b%3a+190%2c%e9%87%91%e9%92%b1%3a+190%e5%85%83]]></Cookie>
+    <IsHeader>True</IsHeader>
+    <Header><![CDATA[Referer:http://localhost:8081/posttopic.aspx?forumid=10&forumpage=1
+User-Agent:Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0
+Connection:keep-alive
+Content-Type: multipart/form-data; boundary=---------------------------25781220736998]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>15000</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>dedecms发布图片</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>dedecms发布规则[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:84</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>1</Value>
+        <Type>5302</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>短标题</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>来源</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>作者</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标签</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>摘要</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>DownloadFile</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>发布到sqlserver</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1068</PublishType>
+    <DataType>2052</DataType>
+    <DataSource>Data Source=.\sqlexpress;initial catalog=test;Integrated Security=True;</DataSource>
+    <DataTable>aa</DataTable>
+    <InsertSql>insert into aa(标题,正文,file,DownloadFile) values ('{标题}','{正文}','{file}','{DownloadFile}')</InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>帝国cms发布</Name>
+    <ThreadCount>5</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>帝国CMS[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:88</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>时间</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>帝国CMS发布图片</Name>
+    <ThreadCount>5</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>帝国CMS[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:88</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>国内</Value>
+        <Type>5302</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>2013-5-27 16:32:00</Value>
+        <Type>5302</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>DownloadFile</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>齐博cms发布文章</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>齐博cms[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:91</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>分类</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>关键词</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>作者</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>来源</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>摘要</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>齐博cms发布图片文章</Name>
+    <ThreadCount>5</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>齐博cms[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:91</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>新闻头条</Value>
+        <Type>5302</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>关键词</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>作者</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>来源</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>摘要</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>DownloadFile</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>joomla发布规则</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>joomla[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:92</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>sdcms发布规则</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>sdcms[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:93</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>标签</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>sdcms发布图片</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>sdcms[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:93</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>标签</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>DownloadFile</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>siteserver发布规则</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1066</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>1002</UrlCode>
+    <PostUrl><![CDATA[http://localhost:94/siteserver/cms/background_contentAdd.aspx?PublishmentSystemID=1&NodeID=2&ReturnUrl=background_content.aspx_question_PublishmentSystemID_equals_1_and_NodeID_equals_2_and_DateFrom_equals__and_SearchType_equals__and_Keyword_equals__and_taxisByAddDate_equals__and_page_equals_1<POST>-----------------------------20007539330945
+Content-Disposition: form-data; name="__VIEWSTATE"
+
+/wEPDwULLTEwNDk5NTU0ODcPZBYCAgoPZBYOAgEPFgIeBFRleHQFwQLmt7vliqDlhoXlrrkNCjxzY3JpcHQ+DQpmdW5jdGlvbiBzdWJtaXRQcmV2aWV3KCl7DQogICAgdmFyIHZhcjEgPSBteUZvcm0uYWN0aW9uOw0KICAgIHZhciB2YXIyID0gbXlGb3JtLnRhcmdldDsNCiAgICBteUZvcm0uYWN0aW9uID0gIi9TaXRlRmlsZXMvSW5uZXIvcGFnZS5hc3B4P3M9MSZuPTImaXNQcmV2aWV3PXRydWUmcHJldmlld0lEPTAiOw0KICAgIG15Rm9ybS50YXJnZXQgPSAicHJldmlldyI7DQogICAgbXlGb3JtLnN1Ym1pdCgpOw0KICAgIG15Rm9ybS5hY3Rpb24gPSB2YXIxOw0KICAgIG15Rm9ybS50YXJnZXQgPSB2YXIyOw0KfQ0KPC9zY3JpcHQ+DQpkAgMPZBYCAgEPEA8WAh4LXyFEYXRhQm91bmRnZA8WBGYCAQICAgMWBBAFBue9rumhtgUFaXN0b3BnEAUG5o6o6I2QBQtpc3JlY29tbWVuZGcQBQbng63ngrkFBWlzaG90ZxAFBumGkuebrgUHaXNjb2xvcmdkZAIEDxYCHgdWaXNpYmxlaBYCAgEPEA8WAh8BZ2RkFgBkAgYPEA8WAh8BZ2QPFgNmAgECAhYDEAUG6I2J56i/BQMtOTlnEAUJ5b6F5a6h5qC4BQEwZxAFDOe7iOWuoemAmui/hwUBMWdkZAIHDxAPFgIfAWcWAh4Ib25jaGFuZ2UFDWdldENoYW5uZWxzKCkQFQILPOS4jei9rOenuz4GbXlTaXRlFQIAATEUKwMCZ2dkZAIIDxAPFgIfAWdkDxYCZgIBFgIQBQblpI3liLYFBENvcHlnEAUG5Ymq5YiHBQNDdXRnZGQCCQ8PZBYCHgdvbmNsaWNrBSRyZXR1cm4gY2hlY2tGb3JtVmFsdWVCeUlkKCdteUZvcm0nKTtkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYFBRNDb250ZW50QXR0cmlidXRlcyQwBRNDb250ZW50QXR0cmlidXRlcyQxBRNDb250ZW50QXR0cmlidXRlcyQyBRNDb250ZW50QXR0cmlidXRlcyQzBRNDb250ZW50QXR0cmlidXRlcyQzYEdBENHjrP6smxbavqhYMNMFWgU=
+-----------------------------20007539330945
+Content-Disposition: form-data; name="Title"
+
+{标题}
+-----------------------------20007539330945
+Content-Disposition: form-data; name="Title_formatColor"
+
+
+-----------------------------20007539330945
+Content-Disposition: form-data; name="ImageUrl"
+
+
+-----------------------------20007539330945
+Content-Disposition: form-data; name="LinkUrl"
+
+
+-----------------------------20007539330945
+Content-Disposition: form-data; name="FileUrl"
+
+
+-----------------------------20007539330945
+Content-Disposition: form-data; name="Content"
+
+{正文}
+
+-----------------------------20007539330945
+Content-Disposition: form-data; name="AddDate"
+
+2013-05-25 22:46
+-----------------------------20007539330945
+Content-Disposition: form-data; name="Tags"
+
+
+-----------------------------20007539330945
+Content-Disposition: form-data; name="ContentLevel"
+
+1
+-----------------------------20007539330945
+Content-Disposition: form-data; name="ddlPublishmentSystemID"
+
+
+-----------------------------20007539330945
+Content-Disposition: form-data; name="ddlTranslateContentType"
+
+Copy
+-----------------------------20007539330945
+Content-Disposition: form-data; name="Submit"
+
+确 定
+-----------------------------20007539330945
+Content-Disposition: form-data; name="__EVENTVALIDATION"
+
+/wEWDwKwtLecAQK5pqqyCwLUj8jHBQLv+OXcDwKK4oPyCQKz1YbbAgLV6+isAgKlyZrnCgK6yZrnCgK1prCJBgKT3LD0AwKcs5qaDwL8kaSlDQLo9vDmBAK8w4S2BJkkyl6C1ergGzSYLdnzX2owKYSe
+-----------------------------20007539330945--
+</POST>]]></PostUrl>
+    <Cookie><![CDATA[BAIRONG.VC.ADMINLOGIN=5256; SITESERVER.ADMINISTRATOR.AUTH=D11672C306E86E8C1B2C7DDAF9E68266A8030F0028AD41BC565DEC0A0C733204822119FBB05FECF10C6B1420442C5EF746DFDEC86988F2D140E2C246E476D4D3C947BAD95F6B5E04E9DAC582454DE77F; SITESERVER.ADMINISTRATOR.USERNAME=admin; BAIRONG.VC.LOGIN=1gnv]]></Cookie>
+    <IsHeader>True</IsHeader>
+    <Header><![CDATA[User-Agent:Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20100101 Firefox/21.0
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language:zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding:gzip, deflate
+Referer:http://localhost:86/siteserver/cms/background_contentAdd.aspx?PublishmentSystemID=1&NodeID=2&ReturnUrl=background_content.aspx_question_PublishmentSystemID_equals_1_and_NodeID_equals_2_and_DateFrom_equals__and_SearchType_equals__and_Keyword_equals__and_taxisByAddDate_equals__and_page_equals_1
+Content-Type:multipart/form-data; boundary=---------------------------20007539330945]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>sitefactory</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>SiteFactory4.7文章发布模版[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://esijie-pc:96</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>发布时间</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>发布时间</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>发布时间</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>科讯cms</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>kesionicms1.0.4发布模板[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://esijie-pc:83</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>来源</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>作者</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>简介</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>发布时间</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>2013/6/22 22:34:23</Value>
+        <Type>5302</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>2013/6/22 22:34:23</Value>
+        <Type>5302</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>discuz!论坛发布规则</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>discuz!发布模版[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:82</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>技术论坛</Value>
+        <Type>5302</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>标签</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>DownloadFile</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>siteservercms3.6发布规则</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1066</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>1002</UrlCode>
+    <PostUrl><![CDATA[http://localhost:94/siteserver/cms/background_contentAdd.aspx?PublishmentSystemID=1&NodeID=2&ReturnUrl=background_content.aspx_question_PublishmentSystemID_equals_1_and_NodeID_equals_2_and_DateFrom_equals__and_SearchType_equals__and_Keyword_equals__and_page_equals_1<POST>-----------------------------46303233413261
+Content-Disposition: form-data; name="__VIEWSTATE"
+
+/wEPDwUKLTE4MjAzOTM5Nw9kFgICDQ9kFhBmDxYCHgRUZXh0BdYBPHVsIGNsYXNzPSJicmVhZGNydW1iIj48bGk+56uZ54K5566h55CGIDxzcGFuIGNsYXNzPSJkaXZpZGVyIj4vPC9zcGFuPjwvbGk+PGxpPuS/oeaBr+euoeeQhiA8c3BhbiBjbGFzcz0iZGl2aWRlciI+Lzwvc3Bhbj48L2xpPjxsaT7mt7vliqDlhoXlrrkgPHNwYW4gY2xhc3M9ImRpdmlkZXIiPi88L3NwYW4+PC9saT48bGkgY2xhc3M9ImFjdGl2ZSI+6YeH6ZuGPC9saT48L3VsPmQCAg8WAh8ABZMD5re75Yqg5YaF5a65DQo8c2NyaXB0Pg0KZnVuY3Rpb24gc3VibWl0UHJldmlldygpew0KICAgIHZhciB2YXIxID0gbXlGb3JtLmFjdGlvbjsNCiAgICB2YXIgdmFyMiA9IG15Rm9ybS50YXJnZXQ7DQogICAgbXlGb3JtLmFjdGlvbiA9ICIvc2l0ZWZpbGVzL3NlcnZpY2VzL2Ntcy9wYWdlLmFzcHg/cz0xJm49MiZpc1ByZXZpZXc9dHJ1ZSZwcmV2aWV3SUQ9MCI7DQogICAgbXlGb3JtLnRhcmdldCA9ICJwcmV2aWV3IjsNCiAgICBpZiAoVUUgJiYgVUUuZ2V0RWRpdG9yKCdDb250ZW50JykpeyBVRS5nZXRFZGl0b3IoJ0NvbnRlbnQnKS5zeW5jKCk7IH0NCiAgICBteUZvcm0uc3VibWl0KCk7DQogICAgbXlGb3JtLmFjdGlvbiA9IHZhcjE7DQogICAgbXlGb3JtLnRhcmdldCA9IHZhcjI7DQp9DQo8L3NjcmlwdD4NCmQCBA9kFgICAQ8QDxYCHgtfIURhdGFCb3VuZGdkDxYEZgIBAgICAxYEEAUG572u6aG2BQVpc3RvcGcQBQbmjqjojZAFC2lzcmVjb21tZW5kZxAFBueDreeCuQUFaXNob3RnEAUG6YaS55uuBQdpc2NvbG9yZ2RkAgUPFgIeB1Zpc2libGVoFgICAQ8QDxYCHwFnZGQWAGQCBg9kFgICAw8WAh8ABeQKDQo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+DQpmdW5jdGlvbiBnZXRUYWdzKHRhZyl7DQoJJC5nZXQoJy9zaXRlZmlsZXMvc2VydmljZXMvY21zL1BhZ2VTZXJ2aWNlLmFzcHg/dHlwZT1HZXRUYWdzJnB1Ymxpc2htZW50U3lzdGVtSUQ9MSZ0YWc9JyArIGVuY29kZVVSSUNvbXBvbmVudCh0YWcpICsgJyZyPScgKyBNYXRoLnJhbmRvbSgpLCBmdW5jdGlvbihkYXRhKSB7DQoJCWlmKGRhdGEgIT0nJyl7DQoJCQl2YXIgYXJyID0gZGF0YS5zcGxpdCgnfCcpOw0KCQkJdmFyIHRlbXA9Jyc7DQoJCQlmb3IoaT0wO2k8YXJyLmxlbmd0aDtpKyspDQoJCQl7DQoJCQkJdGVtcCArPSAnPGxpPjxhPicrYXJyW2ldLnJlcGxhY2UodGFnLCc8Yj4nICsgdGFnICsgJzwvYj4nKSArICc8L2E+PC9saT4nOw0KCQkJfQ0KCQkJdmFyIG15bGk9Jzx1bD4nK3RlbXArJzwvdWw+JzsNCgkJCSQoJyN0YWdUaXBzJykuaHRtbChteWxpKTsNCgkJCSQoJyN0YWdUaXBzJykuc2hvdygpOw0KCQl9ZWxzZXsNCiAgICAgICAgICAgICQoJyN0YWdUaXBzJykuaGlkZSgpOw0KICAgICAgICB9DQoJCSQoJyN0YWdUaXBzIGxpJykuY2xpY2soZnVuY3Rpb24gKCkgew0KCQkJdmFyIHRhZyA9ICQoJyNUYWdzJykudmFsKCk7DQoJCQl2YXIgaSA9IHRhZy5sYXN0SW5kZXhPZignICcpOw0KCQkJaWYgKGkgPiAwKQ0KCQkJew0KCQkJCXRhZyA9IHRhZy5zdWJzdHJpbmcoMCwgaSkgKyAnICcgKyAkKHRoaXMpLnRleHQoKTsNCgkJCX1lbHNlew0KCQkJCXRhZyA9ICQodGhpcykudGV4dCgpOwkNCgkJCX0NCgkJCSQoJyNUYWdzJykudmFsKHRhZyk7DQoJCQkkKCcjdGFnVGlwcycpLmhpZGUoKTsNCgkJfSkNCgl9KTsJDQp9DQokKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbiAoKSB7DQokKCcjVGFncycpLmtleXVwKGZ1bmN0aW9uIChlKSB7DQogICAgaWYgKGUua2V5Q29kZSAhPSA0MCAmJiBlLmtleUNvZGUgIT0gMzgpIHsNCiAgICAgICAgdmFyIHRhZyA9ICQoJyNUYWdzJykudmFsKCk7DQoJCXZhciBpID0gdGFnLmxhc3RJbmRleE9mKCcgJyk7DQoJCWlmIChpID4gMCl7IHRhZyA9IHRhZy5zdWJzdHJpbmcoaSArIDEpO30NCiAgICAgICAgaWYgKHRhZyAhPSAnJyAmJiB0YWcgIT0gJyAnKXsNCiAgICAgICAgICAgIHdpbmRvdy5zZXRUaW1lb3V0KCJnZXRUYWdzKCciICsgdGFnICsgIicpOyIsIDIwMCk7DQogICAgICAgIH1lbHNlew0KICAgICAgICAgICAgJCgnI3RhZ1RpcHMnKS5oaWRlKCk7DQogICAgICAgIH0NCiAgICB9DQp9KS5ibHVyKGZ1bmN0aW9uICgpIHsNCgl3aW5kb3cuc2V0VGltZW91dCgiJCgnI3RhZ1RpcHMnKS5oaWRlKCk7IiwgMjAwKTsNCn0pfSk7DQo8L3NjcmlwdD4NCjxkaXYgaWQ9InRhZ1RpcHMiIGNsYXNzPSJpbnB1dFRpcHMiPjwvZGl2Pg0KZAIHD2QWAgIBDxAPFgIfAWdkDxYDZgIBAgIWAxAFBuiNieeovwUDLTk5ZxAFCeW+heWuoeaguAUBMGcQBQznu4jlrqHpgJrov4cFATFnZGQCCA9kFgQCAQ8WAh4Hb25jbGljawV3b3BlbldpbmRvdygn6YCJ5oup55uu5qCH5qCP55uuJywnbW9kYWxfY29udGVudFRyYW5zbGF0ZVNlbGVjdC5hc3B4P1B1Ymxpc2htZW50U3lzdGVtSUQ9MScsNjAwLDU4MCwndHJ1ZScpO3JldHVybiBmYWxzZTtkAgMPEA8WAh8BZ2QPFgNmAgECAhYDEAUG5aSN5Yi2BQRDb3B5ZxAFBuWJquWIhwUDQ3V0ZxAFBuW8leeUqAUJUmVmZXJlbmNlZ2RkAgkPD2QWAh8DBSRyZXR1cm4gY2hlY2tGb3JtVmFsdWVCeUlkKCdteUZvcm0nKTtkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYFBRNDb250ZW50QXR0cmlidXRlcyQwBRNDb250ZW50QXR0cmlidXRlcyQxBRNDb250ZW50QXR0cmlidXRlcyQyBRNDb250ZW50QXR0cmlidXRlcyQzBRNDb250ZW50QXR0cmlidXRlcyQz
+-----------------------------46303233413261
+Content-Disposition: form-data; name="Title"
+
+{标题}
+-----------------------------46303233413261
+Content-Disposition: form-data; name="Title_formatColor"
+
+
+-----------------------------46303233413261
+Content-Disposition: form-data; name="Title_formatStrong"
+
+false
+-----------------------------46303233413261
+Content-Disposition: form-data; name="Title_formatEM"
+
+false
+-----------------------------46303233413261
+Content-Disposition: form-data; name="Title_formatU"
+
+false
+-----------------------------46303233413261
+Content-Disposition: form-data; name="ImageUrl"
+
+
+-----------------------------46303233413261
+Content-Disposition: form-data; name="LinkUrl"
+
+
+-----------------------------46303233413261
+Content-Disposition: form-data; name="FileUrl"
+
+
+-----------------------------46303233413261
+Content-Disposition: form-data; name="Content"
+
+{发布时间}
+-----------------------------46303233413261
+Content-Disposition: form-data; name="AddDate"
+
+{发布时间}
+-----------------------------46303233413261
+Content-Disposition: form-data; name="Tags"
+
+
+-----------------------------46303233413261
+Content-Disposition: form-data; name="ContentLevel"
+
+1
+-----------------------------46303233413261
+Content-Disposition: form-data; name="translateCollection"
+
+
+-----------------------------46303233413261
+Content-Disposition: form-data; name="ddlTranslateType"
+
+Copy
+-----------------------------46303233413261
+Content-Disposition: form-data; name="Submit"
+
+确 定
+-----------------------------46303233413261
+Content-Disposition: form-data; name="__EVENTVALIDATION"
+
+/wEWDgLUyO/mBAK5pqqyCwLUj8jHBQLv+OXcDwKK4oPyCQKz1YbbAgLV6+isAgKlyZrnCgK6yZrnCgK1prCJBgK15NrXCAKhg46UAQLCp/2BCwK8w4S2BA==
+-----------------------------46303233413261--
+</POST>]]></PostUrl>
+    <Cookie><![CDATA[BAIRONG.VC.ADMINLOGIN=3976; SITESERVER.ADMINISTRATOR.AUTH=A65C71FA0F9D66AF8A6D2E58AD99FAD96718DAEDA2CCE07B05A6C5E493922BC8A90C60560A30F373E27EF1982627BC287EA03599680F2084980C13186C8C8DDDB861744A5055E2B5718F9299A89D2720; SITESERVER.ADMINISTRATOR.USERNAME=admin]]></Cookie>
+    <IsHeader>True</IsHeader>
+    <Header><![CDATA[User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20100101 Firefox/21.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://localhost:94/siteserver/cms/background_contentAdd.aspx?PublishmentSystemID=1&NodeID=2&ReturnUrl=background_content.aspx_question_PublishmentSystemID_equals_1_and_NodeID_equals_2_and_DateFrom_equals__and_SearchType_equals__and_Keyword_equals__and_page_equals_1
+Content-Type: multipart/form-data; boundary=---------------------------46303233413261]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>本地发布</Name>
+    <ThreadCount>5</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1066</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <UrlCode>1001</UrlCode>
+    <PostUrl><![CDATA[http://www.drxexpo.com/basedadmin/new_asp.asp<POST>classid=835&title={标题}&intro={标题}&source1=东如信会展网&time={时间}&xpicture=&clore=&bznew=0&hot=0&ph=0&NewsContent={正文}&Submit=提交&operate=1</POST>]]></PostUrl>
+    <Cookie><![CDATA[ASPSESSIONIDSCSSTABS=DDCHIDBDBLFACLILJDEJIEGJ; CNZZDATA5322752=cnzz_eid%3D282850248-1372990319-http%253A%252F%252Fwww.drxexpo.com%26ntime%3D1372990319%26cnzz_a%3D0%26retime%3D1372990320017%26sin%3D%26ltime%3D1372990320017%26rtime%3D0; bdshare_firstime=1372990320318; ASPSESSIONIDASQTRDCQ=MCGBAPCDGOCJHJDCCGIENEKN; ASPSESSIONIDASQSSACQ=BADDPFDDEKINCNPEGHEFOOBM; ASPSESSIONIDCSSSRCDQ=JABPPMDDIGBHCLIIIGLBMAIM]]></Cookie>
+    <IsHeader>True</IsHeader>
+    <Header><![CDATA[User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:22.0) Gecko/20100101 Firefox/22.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://www.drxexpo.com/basedadmin/new_add.asp
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>74cms新闻发布</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1066</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <IsSqlTrue>False</IsSqlTrue>
+    <UrlCode>1001</UrlCode>
+    <PostUrl><![CDATA[http://localhost:90/admin/admin_article.php?act=addsave<POST>-----------------------------287782276411031
+Content-Disposition: form-data; name="hiddentoken"
+
+8e8dcbe6
+-----------------------------287782276411031
+Content-Disposition: form-data; name="title"
+
+{标题}
+-----------------------------287782276411031
+Content-Disposition: form-data; name="tit_color"
+
+
+-----------------------------287782276411031
+Content-Disposition: form-data; name="type_id_cn"
+
+123
+-----------------------------287782276411031
+Content-Disposition: form-data; name="type_id"
+
+2
+-----------------------------287782276411031
+Content-Disposition: form-data; name="Small_img"; filename=""
+Content-Type: application/octet-stream
+
+
+-----------------------------287782276411031
+Content-Disposition: form-data; name="content"
+
+{正文}
+-----------------------------287782276411031
+Content-Disposition: form-data; name="Submit"
+
+人工
+-----------------------------287782276411031
+Content-Disposition: form-data; name="is_display"
+
+1
+-----------------------------287782276411031
+Content-Disposition: form-data; name="article_order"
+
+
+-----------------------------287782276411031
+Content-Disposition: form-data; name="author"
+
+网络矿工
+-----------------------------287782276411031
+Content-Disposition: form-data; name="source"
+
+74cms
+-----------------------------287782276411031
+Content-Disposition: form-data; name="is_url"
+
+http://www.soukey.com
+-----------------------------287782276411031
+Content-Disposition: form-data; name="focos"
+
+1
+-----------------------------287782276411031
+Content-Disposition: form-data; name="seo_keywords"
+
+
+-----------------------------287782276411031
+Content-Disposition: form-data; name="seo_description"
+
+-----------------------------287782276411031--
+</POST>]]></PostUrl>
+    <Cookie><![CDATA[PHPSESSID=n9g5rkrmj9qv7br3sph0mo59i6]]></Cookie>
+    <IsHeader>True</IsHeader>
+    <Header><![CDATA[Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer:http://localhost:90/admin/admin_article.php?act=news_add
+Content-Type:multipart/form-data; boundary=---------------------------287782276411031
+User-Agent:Mozilla/5.0 (Windows NT 6.1; rv:20.0) Gecko/20100101 Firefox/20.0]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>15000</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>carcms</Name>
+    <ThreadCount>5</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1066</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <IsSqlTrue>False</IsSqlTrue>
+    <UrlCode>1005</UrlCode>
+    <PostUrl><![CDATA[http://www.0832auto.com/admins/index.php?type=brand&cn=car&do=info<POST></POST>]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>aotohome</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1068</PublishType>
+    <DataType>2053</DataType>
+    <DataSource>Server=localhost;Port=3306; Database=test;User Id=root;password=ZmVpdw==; character set=utf8;</DataSource>
+    <DataTable>autohome</DataTable>
+    <InsertSql>insert into autohome(车系,车系1,车型名称,厂商指导价元,厂商,级别,发动机,变速箱,长宽高mm,车身结构,最高车速kmh,官方0100kmh加速s,实测0100kmh加速s,实测1000kmh制动m,实测油耗L100km,工信部综合油耗L100km,整车质保,长度mm,宽度mm,高度mm,轴距mm,前轮距mm,后轮距mm,最小离地间隙mm,整备质量kg,车身结构_1,车门数个,座位数个,油箱容积L,行李厢容积L,发动机型号,排量mL,排量L,进气形式,气缸排列形式,气缸数个,每缸气门数个,压缩比,配气机构,缸径mm,行程mm,最大马力Ps,最大功率kW,最大功率转速rpm,最大扭矩N·m,最大扭矩转速rpm,发动机特有技术,燃料形式,燃油标号,供油方式,缸盖材料,缸体材料,环保标准,简称,挡位个数,变速箱类型,驱动方式,前悬架类型,后悬架类型,助力类型,车体结构,前制动器类型,后制动器类型,驻车制动类型,前轮胎规格,后轮胎规格,备胎规格,主副驾驶座安全气囊,前后排侧气囊,前后排头部气囊气帘,膝部气囊,胎压监测装置,零胎压继续行驶,安全带未系提示,儿童座椅接口,发动机电子防盗,车内中控锁,遥控钥匙,无钥匙启动系统,无钥匙进入系统,ABS防抱死,制动力分配EBDCBC等,刹车辅助EBABASBA等,牵引力控制ASRTCSTRC等,车身稳定控制ESCESPDSC等,自动驻车上坡辅助,陡坡缓降,可变悬架,空气悬架,可变转向比,前桥限滑差速器差速锁,中央差速器锁止功能,后桥限滑差速器差速锁,电动天窗,全景天窗,运动外观套件,铝合金轮毂,电动吸合门,真皮方向盘,方向盘调节,方向盘电动调节,多功能方向盘,方向盘换挡,方向盘加热,定速巡航,前后驻车雷达,倒车视频影像,行车电脑显示屏,HUD抬头数字显示,真皮仿皮座椅,运动风格座椅,座椅高低调节,腰部支撑调节,肩部支撑调节,主副驾驶座电动调节,第二排靠背角度调节,第二排座椅移动,后排座椅电动调节,电动座椅记忆,前后排座椅加热,前后排座椅通风,前后排座椅按摩,后排座椅放倒方式,第三排座椅,前后中央扶手,后排杯架,电动后备厢,GPS导航系统,定位互动服务,中控台彩色大屏,人机交互系统,内置硬盘,蓝牙车载电话,车载电视,后排液晶屏,外接音源接口AUXUSBiPod等,CD支持MP3WMA,多媒体系统,扬声器数量,氙气大灯,LED大灯,日间行车灯,自动头灯,转向头灯辅助灯,前雾灯,大灯高度可调,大灯清洗装置,车内氛围灯,前后电动车窗,车窗防夹手功能,防紫外线隔热玻璃,后视镜电动调节,后视镜加热,内外后视镜自动防眩目,后视镜电动折叠,后视镜记忆,后风挡遮阳帘,后排侧遮阳帘,后排侧隐私玻璃,遮阳板化妆镜,后雨刷,感应雨刷,空调控制方式,后排独立空调,后座出风口,温度分区控制,车内空气调节花粉过滤,车载冰箱,自动泊车入位,发动机启停技术,并线辅助,车道偏离预警系统,主动刹车主动安全系统,整体主动转向系统,夜视系统,中控液晶屏分屏显示,自适应巡航,全景摄像头,图片,CollectionUrl,四驱形式,中央差速器结构,电动机最大功率kW,电动机最大扭矩N·m,电池支持最高续航里程km) values ('{车系}','{车系1}','{车型名称}','{厂商指导价元}','{厂商}','{级别}','{发动机}','{变速箱}','{长宽高mm}','{车身结构}','{最高车速kmh}','{官方0100kmh加速s}','{实测0100kmh加速s}','{实测1000kmh制动m}','{实测油耗L100km}','{工信部综合油耗L100km}','{整车质保}','{长度mm}','{宽度mm}','{高度mm}','{轴距mm}','{前轮距mm}','{后轮距mm}','{最小离地间隙mm}','{整备质量kg}','{车身结构_1}','{车门数个}','{座位数个}','{油箱容积L}','{行李厢容积L}','{发动机型号}','{排量mL}','{排量L}','{进气形式}','{气缸排列形式}','{气缸数个}','{每缸气门数个}','{压缩比}','{配气机构}','{缸径mm}','{行程mm}','{最大马力Ps}','{最大功率kW}','{最大功率转速rpm}','{最大扭矩N·m}','{最大扭矩转速rpm}','{发动机特有技术}','{燃料形式}','{燃油标号}','{供油方式}','{缸盖材料}','{缸体材料}','{环保标准}','{简称}','{挡位个数}','{变速箱类型}','{驱动方式}','{前悬架类型}','{后悬架类型}','{助力类型}','{车体结构}','{前制动器类型}','{后制动器类型}','{驻车制动类型}','{前轮胎规格}','{后轮胎规格}','{备胎规格}','{主副驾驶座安全气囊}','{前后排侧气囊}','{前后排头部气囊气帘}','{膝部气囊}','{胎压监测装置}','{零胎压继续行驶}','{安全带未系提示}','{儿童座椅接口}','{发动机电子防盗}','{车内中控锁}','{遥控钥匙}','{无钥匙启动系统}','{无钥匙进入系统}','{ABS防抱死}','{制动力分配EBDCBC等}','{刹车辅助EBABASBA等}','{牵引力控制ASRTCSTRC等}','{车身稳定控制ESCESPDSC等}','{自动驻车上坡辅助}','{陡坡缓降}','{可变悬架}','{空气悬架}','{可变转向比}','{前桥限滑差速器差速锁}','{中央差速器锁止功能}','{后桥限滑差速器差速锁}','{电动天窗}','{全景天窗}','{运动外观套件}','{铝合金轮毂}','{电动吸合门}','{真皮方向盘}','{方向盘调节}','{方向盘电动调节}','{多功能方向盘}','{方向盘换挡}','{方向盘加热}','{定速巡航}','{前后驻车雷达}','{倒车视频影像}','{行车电脑显示屏}','{HUD抬头数字显示}','{真皮仿皮座椅}','{运动风格座椅}','{座椅高低调节}','{腰部支撑调节}','{肩部支撑调节}','{主副驾驶座电动调节}','{第二排靠背角度调节}','{第二排座椅移动}','{后排座椅电动调节}','{电动座椅记忆}','{前后排座椅加热}','{前后排座椅通风}','{前后排座椅按摩}','{后排座椅放倒方式}','{第三排座椅}','{前后中央扶手}','{后排杯架}','{电动后备厢}','{GPS导航系统}','{定位互动服务}','{中控台彩色大屏}','{人机交互系统}','{内置硬盘}','{蓝牙车载电话}','{车载电视}','{后排液晶屏}','{外接音源接口AUXUSBiPod等}','{CD支持MP3WMA}','{多媒体系统}','{扬声器数量}','{氙气大灯}','{LED大灯}','{日间行车灯}','{自动头灯}','{转向头灯辅助灯}','{前雾灯}','{大灯高度可调}','{大灯清洗装置}','{车内氛围灯}','{前后电动车窗}','{车窗防夹手功能}','{防紫外线隔热玻璃}','{后视镜电动调节}','{后视镜加热}','{内外后视镜自动防眩目}','{后视镜电动折叠}','{后视镜记忆}','{后风挡遮阳帘}','{后排侧遮阳帘}','{后排侧隐私玻璃}','{遮阳板化妆镜}','{后雨刷}','{感应雨刷}','{空调控制方式}','{后排独立空调}','{后座出风口}','{温度分区控制}','{车内空气调节花粉过滤}','{车载冰箱}','{自动泊车入位}','{发动机启停技术}','{并线辅助}','{车道偏离预警系统}','{主动刹车主动安全系统}','{整体主动转向系统}','{夜视系统}','{中控液晶屏分屏显示}','{自适应巡航}','{全景摄像头}','{图片}','{CollectionUrl}','{四驱形式}','{中央差速器结构}','{电动机最大功率kW}','{电动机最大扭矩N·m}','{电池支持最高续航里程km}')</InsertSql>
+    <IsSqlTrue>True</IsSqlTrue>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>aa</Name>
+    <ThreadCount>5</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1068</PublishType>
+    <DataType>2053</DataType>
+    <DataSource>Server=localhost;Port=3306; Database=test;User Id=root;password=ZmVpdw==; character set=utf8;</DataSource>
+    <DataTable>picID</DataTable>
+    <InsertSql>insert into picID(图片名称,url,图片,CollectionUrl) values ('{图片名称}','{url}','{图片}','{CollectionUrl}')</InsertSql>
+    <IsSqlTrue>True</IsSqlTrue>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>aaa</Name>
+    <ThreadCount>5</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1068</PublishType>
+    <DataType>2052</DataType>
+    <DataSource>Data Source=.\sqlexpress;initial catalog=email;Integrated Security=True;</DataSource>
+    <DataTable>Y04_QQGroup</DataTable>
+    <InsertSql>insert into Y04_QQGroup (Code,Name,Remark,Count) values ( '{Code}','{Name}','{Remark}','{Count}')</InsertSql>
+    <IsSqlTrue>True</IsSqlTrue>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>dedecms发布规则</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <IsSqlTrue>False</IsSqlTrue>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>dedecms发布规则[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>feiw</Password>
+    <Domain>http://localhost:82</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>采集</Value>
+        <Type>5302</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>短标题</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>来源</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>作者</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标签</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>摘要</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>内容</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>发布时间</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>上传文件目录</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>123</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1068</PublishType>
+    <DataType>2054</DataType>
+    <DataSource>Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=test)));User Id=system;Password=ZmVpdw==;</DataSource>
+    <DataTable>abc</DataTable>
+    <InsertSql>insert into abc (MOLECULARWEIGHT,MOLECULARFORMULA,XLOGP3AA,HBONDDONOR,HBONDACCEPTOR,ROTATABLEBONDCOUNT,EXACTMASS,MONOISOTOPICMASS,TOPOLOGICALPOLARSURFACEAREA) values ( '{MolecularWeight}','{MolecularFormula}','{XLogP3AA}','{HBondDonor}','{HBondAcceptor}','{RotatableBondCount}','{ExactMass}','{MonoIsotopicMass}','{TopologicalPolarSurfaceArea}')</InsertSql>
+    <IsSqlTrue>False</IsSqlTrue>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>163k</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <IsSqlTrue>False</IsSqlTrue>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>163K[网站发布类]</TemplateName>
+    <User>cs003</User>
+    <Password>123456</Password>
+    <Domain>http://www.idangyang.com</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>作者</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>asdf</Name>
+    <ThreadCount>1</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1070</PublishType>
+    <DataType>0</DataType>
+    <DataSource>
+    </DataSource>
+    <DataTable>
+    </DataTable>
+    <InsertSql>
+    </InsertSql>
+    <IsSqlTrue>False</IsSqlTrue>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>phpcms发布模版[网站发布类]</TemplateName>
+    <User>admin</User>
+    <Password>phpcms</Password>
+    <Domain>http://localhost:82</Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+      <Para>
+        <Label>系统分类</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>发布时间</Label>
+        <Value>
+        </Value>
+        <Type>5303</Type>
+      </Para>
+      <Para>
+        <Label>标题</Label>
+        <Value>标题</Value>
+        <Type>5301</Type>
+      </Para>
+      <Para>
+        <Label>正文</Label>
+        <Value>正文</Value>
+        <Type>5301</Type>
+      </Para>
+    </Paras>
+  </Publish>
+  <Publish>
+    <Name>dada</Name>
+    <ThreadCount>5</ThreadCount>
+    <IsDelRepeatRow>True</IsDelRepeatRow>
+    <PublishType>1068</PublishType>
+    <DataType>2052</DataType>
+    <DataSource>Data Source=.\sqlexpress;initial catalog=test;Integrated Security=True;</DataSource>
+    <DataTable>asas</DataTable>
+    <InsertSql>insert into asas(标题,发布时间,正文) values ('{标题}','{发布时间}','{正文}')</InsertSql>
+    <IsSqlTrue>False</IsSqlTrue>
+    <UrlCode>0</UrlCode>
+    <PostUrl><![CDATA[]]></PostUrl>
+    <Cookie><![CDATA[]]></Cookie>
+    <IsHeader>False</IsHeader>
+    <Header><![CDATA[]]></Header>
+    <SucceedFlag><![CDATA[]]></SucceedFlag>
+    <PublishIntervalTime>0</PublishIntervalTime>
+    <TemplateName>
+    </TemplateName>
+    <User>
+    </User>
+    <Password>
+    </Password>
+    <Domain>
+    </Domain>
+    <PublishDbConn>
+    </PublishDbConn>
+    <Paras>
+    </Paras>
+  </Publish>
+</PublishInfos>

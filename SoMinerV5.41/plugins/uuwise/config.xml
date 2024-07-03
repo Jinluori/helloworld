@@ -1,0 +1,14 @@
+<Config>
+  <User>userlee</User>
+  <Pwd>zaijiali</Pwd>
+  <VCodeDomain>
+    <Domain>
+      <Host>http://localhost:81</Host>
+      <Type>1004</Type>
+    </Domain>
+    <Domain>
+      <Host>http://www.soukey.com</Host>
+      <Type>1004</Type>
+    </Domain>
+  </VCodeDomain>
+</Config>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Proxys>
+  <Proxy>
+    <Server>143.248.247.9</Server>
+    <Port>8080</Port>
+    <User>
+    </User>
+    <Password>
+    </Password>
+  </Proxy>
+</Proxys>

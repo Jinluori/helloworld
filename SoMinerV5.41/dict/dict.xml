@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DictConfig>
+  <DictClasses>
+    <DictClass>
+      <Name>测试分类</Name>
+    </DictClass>
+  </DictClasses>
+  <Dict>
+  </Dict>
+</DictConfig>
